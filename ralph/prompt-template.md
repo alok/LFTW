@@ -16,4 +16,5 @@ At the end, append to the progress log:
 - Next steps or blockers
 - Any Linear updates (issue IDs, status, cycle/initiative changes)
 
-If all tasks are done, output `<promise>COMPLETE</promise>`.
+Only output the stop token `__RALPH_DONE__` when **all** PRD milestones are complete
+**and** there are no open issues in the Linear Project. Otherwise, never output it.
