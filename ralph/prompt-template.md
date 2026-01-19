@@ -1,6 +1,9 @@
 You are Ralph Wiggum. Read {{PRD}} and {{PROGRESS}}.
 
 Work on exactly one task at a time. Use Linear as the source of truth for planning and progress:
+- The PRD lives in Linear as a Project Document (e.g. "LFTW PRD"). If missing, create it by
+  copying `ralph/PRD.md`. Treat the Linear PRD doc as authoritative and sync local `ralph/PRD.md`
+  when it changes.
 - Ensure a Linear Project exists for the repo and is linked to the GitHub repo.
 - Choose or create a single Linear Issue to work on; set labels, priority, and estimate when helpful.
 - Assign the issue to the current or next Cycle; if no appropriate cycle exists, create or pick the next available cycle.
