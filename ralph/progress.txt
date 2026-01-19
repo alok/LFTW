@@ -2,3 +2,9 @@
 - Bootstrapped ralph loop files (PRD + progress log).
 - Created Linear project and initial work-queue issues.
 - Next: wire FFTW download/build harness and Lean test runner.
+
+2026-01-19
+- Changed: added `scripts/fftw/build.sh`, `scripts/fftw/oracle.c`, `scripts/fftw/README.md`; updated `README.md` and `.gitignore` to document/ignore FFTW deps.
+- Commands/tests: `scripts/fftw/build.sh`; `printf '0 0\n0 0\n0 0\n0 0\n' | ./.deps/fftw/bin/fftw-oracle --size 4`.
+- Next steps/blockers: none; ready to wire Lean-side test harness against oracle.
+- Linear: ALOK-412 moved to In Review (Cycle 13), comment added with commands; Project updated with GitHub link (no Initiative set).
