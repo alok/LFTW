@@ -1,0 +1,4 @@
+2026-01-19
+- Bootstrapped ralph loop files (PRD + progress log).
+- Created Linear project and initial work-queue issues.
+- Next: wire FFTW download/build harness and Lean test runner.
